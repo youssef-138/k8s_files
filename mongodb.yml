@@ -34,7 +34,7 @@ spec:
       volumes:
         - name: mongo-data
           hostPath:
-            path: /home/youssef/volume-dir # Replace with the host directory path
+            path: ~/volume-dir # Replace with the host directory path
             type: DirectoryOrCreate
 
       
